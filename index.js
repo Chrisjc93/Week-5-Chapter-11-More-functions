@@ -335,7 +335,7 @@ console.log(decreasingSum(5));
 //   } else if (typeof(input) === "number"){
 //     return input * 3;
 //   } else {
-//     return `Invalid Input!!!`;
+//     return input;
 //   }
 // };
 
@@ -363,7 +363,7 @@ let anonFunction = arr.map(function(input){
   } else if (typeof(input) === "number"){
     return input * 3;
   } else {
-    return `Invalid Input!!!`;
+    return input;
   }
 });
 
